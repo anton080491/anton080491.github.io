@@ -1,0 +1,69 @@
+@import 'base/buttons';
+@import 'base/about';
+@import 'base/header';
+@import 'base/Local-business';
+@import 'base/services';
+@import 'base/title&subtitle';
+@import 'base/varieble';
+@import 'base/price';
+@import 'base/works';
+@import 'base/clients';
+@import 'base/form';
+@import 'base/newsletter';
+@import 'base/menu';
+@import 'base/scroll';
+
+body{
+    position: relative;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+.border{
+    border: solid black 1px;
+}
+
+a{
+    text-decoration: none;
+    color: #9a9a9a;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+input[type="radio"]:checked+label{
+    background: #e2cc9d;
+}
+
+i{
+    color: #709dca;;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-right: 39px;
+    transition:.3s all;
+}
+
+input[type="radio"]:checked+label{
+    background: #e2cc9d;
+}
+
+
+@import 'base/media';
+
+
+
+
+
+    
+    
+
+

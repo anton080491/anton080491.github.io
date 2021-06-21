@@ -1,0 +1,25 @@
+.about{
+    &_wrapper{
+        display: flex;
+        div{
+            width: 50%;
+        }
+        .foto{
+            background:url(../img/background1.jpg) center center/cover no-repeat;
+        }
+        .description{
+            background-color: #ffc155;
+            padding: 164px 265px 174px 80px;
+            p{
+                color: #ffffff;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left;
+            }
+            &_wrapper{
+                width: 505px;
+            }
+        }
+    }
+}

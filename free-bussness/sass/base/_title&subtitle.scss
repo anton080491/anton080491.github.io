@@ -1,0 +1,43 @@
+.title{
+    color: #394b50;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 22px;
+    &_about{
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 22px;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: -0.75px;
+        margin-bottom: 28px;
+    }
+    &_business{
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: 400;
+        letter-spacing: -0.88px;
+        text-transform: uppercase;
+    }
+    &_clients{
+        color: #ffffff;
+    }
+}
+
+.subtitle{
+    color: #394b50;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    &_business{
+        color: #ffffff;
+    }
+    &_clients{
+        color: #ffffff;
+    }
+}

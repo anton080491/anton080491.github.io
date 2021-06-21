@@ -1,0 +1,33 @@
+.header{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        transition: .3s all;
+        li{
+            display: block;
+            color: #868686;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: left;
+            text-transform: uppercase;
+            transition: .3s all;
+            a{
+                padding: 12px 20px;
+                width: 100%;
+                transition: .3s all;
+                &:hover{
+                    color: #ffff;
+                    background-color: #ffbb42;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

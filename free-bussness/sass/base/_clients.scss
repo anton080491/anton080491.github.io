@@ -1,0 +1,49 @@
+.clients{
+    padding-top: 141px;
+    padding-bottom: 160px;
+    background-color: #ffc155;
+    margin: 0 auto;
+    &-blocks{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        &-wrapper{
+            width: 522px;
+            background-color: #ffffff;
+            margin: 10px 18px;
+            // transform:translateX(-36px);
+            display: flex;
+            flex-direction: row;
+            padding: 51px 41px 51px 30px;
+            img{
+                width: 121px;
+                height: 121px;
+                margin-right: 31px;
+            }
+            &__desk{
+                color: #7b7b7b;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: left;
+                p{
+                    margin-top: 29px;
+                    span{
+                        color: #99a9ae;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        text-align: left;
+                        text-transform: uppercase;
+                        &:first-child{
+                            color: #f6772c;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+

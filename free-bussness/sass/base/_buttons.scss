@@ -1,0 +1,34 @@
+.button{
+    width: 500px;
+    height: 46px;
+    background-color: #ffbb42;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    &:active {
+        background-color: #ffbb99;
+    }
+    &_about{
+        width: 145px;
+        border: 1px solid #e7ad48;
+    }
+    &_price{
+        display: block;
+        width: 131px;
+        height: 42px;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+    &_works{
+        display: block;
+        width: 165px;
+        height: 42px;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+
+}

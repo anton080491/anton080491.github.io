@@ -1,0 +1,46 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input{
+        margin-top: 20px;
+        padding: 18px 44px 18px 44px;
+        width: 500px;
+        height: 46px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background:url(/icons/form/user-solid.svg);
+        background-repeat: no-repeat;
+        background-color: #ffffff;
+        background-size: auto 50%;
+        background-position: 15px;
+        &:nth-child(2){
+            background:url(/icons/form/envelope-solid.svg);
+            background-repeat: no-repeat;
+            background-color: #ffffff;
+            background-size: auto 50%;
+            background-position: 15px;
+        }
+        &:nth-child(3){
+            background:url(/icons/form/phone-alt-solid.svg);
+            background-repeat: no-repeat;
+            background-color: #ffffff;
+            background-size: auto 50%;
+            background-position: 15px;
+        }
+        
+    }
+    
+    &_newsletter{
+        margin-bottom: 53px;
+        input{
+            border: 1px solid #cbcbcb;
+            background-color: #ffffff;
+        }
+    }
+    label{
+        margin-top: 10px;
+    }
+}
